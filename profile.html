@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Socialbook.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/06adb8b5b0.js" crossorigin="anonymous"></script>
+    <title>Socialbook - Profile</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="imgs/logo.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="imgs/notification.png"></li>
+                <li><img src="imgs/inbox.png"></li>
+                <li><img src="imgs/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="imgs/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="imgs/profile-pic.png">
+            </div>
+        </div> 
+        
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="imgs/profile-pic.png">
+                    <div>
+                        <p>Stephen Roger</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="imgs/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve he new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="imgs/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="imgs/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="imgs/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="imgs/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="imgs/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="imgs/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="imgs/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="imgs/arrow.png" width="10px"></a>
+                </div>
+
+            </div>
+            
+        </div>
+
+    </nav>
+
+    <div class="profile-container">
+        <img src="imgs/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="profile-det-left">
+                <div class="prof-dt-row">
+                    <img src="imgs/profile.png" class="prof-dt-img">
+                    <div>
+                        <h3>Clark Kent</h3>
+                        <p>243 Friends - 23 mutual</p>
+                        <img src="imgs/member-1.png">
+                        <img src="imgs/member-2.png">
+                        <img src="imgs/member-3.png">
+                        <img src="imgs/member-5.png">
+                    </div>
+                </div>
+            </div>
+            <div class="profile-det-right">
+
+                <button type="button"><img src="imgs/add-friends.png"> Friend</button>
+                <button type="button"><img src="imgs/message.png"> Message</button>
+                <br>
+                <a href="#"><img src="imgs/more.png"></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Some people can read "War and Peace" and come away thinking it's a simple adventure story. Others can read the ingredients on a chewing gum wrapper and unlock the secrets of the universe. <img src="imgs/feeling.png" alt=""></p>
+                    <hr>
+                    <ul>
+                        <li><img src="imgs/profile-job.png"> Director at Daily Planet Inc.</li>
+                        <li><img src="imgs/profile-study.png"> Studied at Metropolis University</li>
+                        <li><img src="imgs/profile-home.png"> Lives in Manhattan, New York</li>
+                        <li><img src="imgs/profile-location.png"> From Metropolis, New Jersey</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                    <a href="#">All Photos</a>
+                    </div>
+                    
+                    <div class="photo-box">
+                        <div><img src="imgs/photo1.png"></div>
+                        <div><img src="imgs/photo2.png"></div>
+                        <div><img src="imgs/photo3.png"></div>
+                        <div><img src="imgs/photo4.png"></div>
+                        <div><img src="imgs/photo5.png"></div>
+                        <div><img src="imgs/photo6.png"></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                    <a href="#">All Friends</a>
+                    </div>
+                    <p>243 (23 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="imgs/member-1.png"> <p>Mary J</p></div>
+                        <div><img src="imgs/member-2.png"> <p>Barry A</p></div>
+                        <div><img src="imgs/member-3.png"> <p>Carol D </p></div>
+                        <div><img src="imgs/member-4i.png"> <p>Barbara G</p></div>
+                        <div><img src="imgs/member-5.png"> <p>Oliver K</p></div>
+                        <div><img src="imgs/member-6.png"> <p>Natasha R</p></div>
+                        <div><img src="imgs/member-7.png"> <p>Tony S</p></div>
+                        <div><img src="imgs/member-8.png"> <p>Wanda M</p></div>
+                        <div><img src="imgs/member-9.png"> <p>Peter P</p></div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="imgs/profile-pic.png">
+                        <div>
+                            <p>Stephen Roger</p>
+                            <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, Stephen?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="imgs/live-video.png"> Live Video</a>
+                            <a href="#"><img src="imgs/photo.png"> Photo/Video</a>
+                            <a href="#"><img src="imgs/feeling.png"> Feeling/Activity</a>
+                        </div>
+                    
+                    </div>
+    
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="imgs/profile-pic.png">
+                            <div>
+                                <p>Stephen Roger</p>
+                                <span>March 08 2024, 07:12 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>    
+                    </div>
+    
+                    <p class="post-text">Captivated by the possibilities. Our team at the forefront of innovation, diving deep into the digital realm! Join the adventure with us <span>@TechTime</span>  and let's pave the way to a brighter tomorrow!
+                    <a href="#">#TechSavvy</a> <a href="#">#TeamGoals</a> <a href="#">#InnovationJourney</a></p>
+                    <img src="imgs/feed-image-1.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="imgs/like-blue.png"> 360</div>
+                            <div><img src="imgs/comments.png"> 87</div>
+                            <div><img src="imgs/share.png"> 42</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="imgs/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="imgs/profile-pic.png">
+                            <div>
+                                <p>Stephen Roger</p>
+                                <span>February 16 2024, 11:37 am</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>    
+                    </div>
+    
+                    <p class="post-text">Embracing the timeless joy of companionship by the campfire. There's something truly special about these moments. Join us in the tranquility of nature <span>@OutdoorExplorers</span> and let's cherish the simplicity of friendship.
+                    <a href="#">#CampfireNights</a> <a href="#">#MemoriesMade</a></p>
+                    <img src="imgs/feed-image-2.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="imgs/like-blue.png"> 286</div>
+                            <div><img src="imgs/comments.png"> 64</div>
+                            <div><img src="imgs/share.png"> 13</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="imgs/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="imgs/profile-pic.png">
+                            <div>
+                                <p>Stephen Roger</p>
+                                <span>February 16 2024, 11:37 am</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>    
+                    </div>
+    
+                    <p class="post-text">Strolling through the streets, sharing laughter and stories with cherished friends. These moments of connection are the heartbeat of our journey. Let's keep the conversation going! Tag your walking companions and spread the joy.
+                    <a href="#">#StreetStroll</a> <a href="#">#CityLife</a> <a href="#">#MemorableMoments</a></p>
+                    <img src="imgs/feed-image-3.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="imgs/like.png"> 302</div>
+                            <div><img src="imgs/comments.png"> 57</div>
+                            <div><img src="imgs/share.png"> 18</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="imgs/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="imgs/profile-pic.png">
+                            <div>
+                                <p>Stephen Roger</p>
+                                <span>February 16 2024, 11:37 am</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>    
+                    </div>
+    
+                    <p class="post-text">Fueling creativity one sip at a time. Our friend <span>@Sandra_Kieton12</span> knows how to blend work and pleasure effortlessly. Cheers to productivity and those genuine smiles! Keep shining, Sandra!
+                    <a href="#">#CoffeeTime</a> <a href="#">#WorkMode</a> <a href="#">#PositiveVibes</a></p>
+                    <img src="imgs/feed-image-4.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="imgs/like.png"> 215</div>
+                            <div><img src="imgs/comments.png"> 42</div>
+                            <div><img src="imgs/share.png"> 14</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="imgs/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="imgs/profile-pic.png">
+                            <div>
+                                <p>Stephen Roger</p>
+                                <span>February 16 2024, 11:37 am</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>    
+                    </div>
+    
+                    <p class="post-text">Diving deep into brainstorming sessions with these brilliant minds. Collaboration at its finest! Tag your discussion buddies and let's keep the ideas flowing.
+                    <a href="#">#TeamWork</a> <a href="#">#BrainStorming</a> <a href="#">#CreativeMinds</a></p>
+                    <img src="imgs/feed-image-5.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="imgs/like-blue.png"> 378</div>
+                            <div><img src="imgs/comments.png"> 73</div>
+                            <div><img src="imgs/share.png"> 31</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="imgs/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2024 - Socialbook Frontend Site</p>
+    </div>
+
+    <script src="Socialbook.js"></script>
+</body>
+</html>
